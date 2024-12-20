@@ -1,4 +1,4 @@
-# Taller 19 - Grpo 03
+# Taller 19 - Grupo 03
 
 ## Descripción del Proyecto
 Este proyecto consiste en una landing page basada en el sitio [ElectroStationEC](https://electrostationec.netlify.app/), dividida en componentes reutilizables utilizando React. La implementación se centra en estructurar el código de forma modular y ordenada para facilitar su mantenimiento y escalabilidad.
