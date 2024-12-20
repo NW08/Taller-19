@@ -1,0 +1,99 @@
+/* Declaration of variables CSS */
+:root {
+    --colorUno: #FFFFFF;
+    --colorDos: #00A8A8;
+    --colorTres: #161E21;
+    --fuentePrincipal: "Roboto", sans-serif;
+}
+
+/* General styles for the document HTML  */
+html {
+    background-color: var(--colorUno);
+}
+
+body{
+    font-family: var(--fuentePrincipal);
+}
+
+/* Styles for containers */
+.container {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    pointer-events: none;
+}
+
+main {
+    background-color: var(--colorTres);
+}
+
+/* General styles for btn */
+.button{
+    display: block;
+    background-color: var(--colorDos);
+    padding: .8rem;
+    color: white;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease;  
+}
+
+.button:hover{
+    background-color: var(--colorTres);
+}
+
+
+.hero__text {
+    text-align: center;
+    font-size: 18px;
+    color: var(--colorUno);
+    padding: 1rem 0;
+}
+
+.hero__title--primary {
+    color: var(--colorDos);
+    text-transform: uppercase;
+}
+
+.hero__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero__button--primary,
+.hero__button--secondary {
+    text-decoration: none;
+    border: 2px solid var(--colorDos);
+}
+
+@media (width >= 768px) {
+    .hero {
+        display: flex;
+        justify-content: flex-end;
+        gap: 2rem;
+        align-items: center;
+        height: 35rem;
+        margin-top: 1rem;
+    }
+
+    .hero__text {
+        margin: 0;
+    }
+
+    .hero__title {
+        font-size: 4rem;
+        text-transform: uppercase;
+    }
+
+    .hero__img {
+        max-width: 100%;
+        display: block;
+        pointer-events: none;
+
+    }
+}
